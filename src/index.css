@@ -6,7 +6,15 @@
     background: linear-gradient(0deg, #d4cfc8, transparent);
 }
 
-#imgContainer::-webkit-scrollbar
-{
-    display: none;
+#imgContainer::-webkit-scrollbar {
+  width: 10px;
+  background-color: #d4cfc8;
 }
+
+#imgContainer{
+    scrollbar-color: gray #d4cfc8;
+}
+
+#imgContainer::-webkit-scrollbar-thumb {
+    display: none;
+  }

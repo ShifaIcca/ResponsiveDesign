@@ -9,7 +9,7 @@ const Main = () => {
       <div
         style={{
           backgroundImage:
-            "url(https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+            "url(/Sea.avif)",
         }}
         className="h-screen w-full bg-no-repeat bg-cover gap-2  pl-4 pt-48
             lg:flex lg:justify-end lg:pl-20 lg:pb-28 lg:flex-col 
@@ -43,11 +43,11 @@ const Main = () => {
 
 
     <div id="imgContainer" className="h-auto flex flex-col lg:flex-row items-center   
-    justify-start lg:justify-around bg-[#d4cfc8] lg:overflow-scroll">
-        <Card src={"boat.jpg"} head="Kerala" para="a traditional houseboat "/>
-        <Card src={"dance.jpg"}  head="Kathakali" para=" Famous and popular classical dance"/>
-        <Card src={"onam.jpg"}  head="Onam" para="Festival of kerala"/>
-        <Card src={"beach.jpg"}  head="Kovalam" para="Beach in Kerala"/>
+    justify-start lg:justify-around bg-[#d4cfc8] lg:overflow-x-scroll">
+        <Card src={"boat.webp"} head="Kerala" para="a traditional houseboat "/>
+        <Card src={"dance.webp"}  head="Kathakali" para=" Famous and popular classical dance"/>
+        <Card src={"onam.webp"}  head="Onam" para="Festival of kerala"/>
+        <Card src={"beach.webp"}  head="Kovalam" para="Beach in Kerala"/>
        
     </div>
 
