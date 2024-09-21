@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#fade{
+    background: linear-gradient(0deg, #d4cfc8, transparent);
+}
+
+#imgContainer::-webkit-scrollbar
+{
+    display: none;
+}
